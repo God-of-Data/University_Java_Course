@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.example.java_mmn_12_task_2.MainView?>
+
+<MainView xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.java_mmn_12_task_2.AppController">
+
+</MainView>

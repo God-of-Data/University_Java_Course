@@ -1,0 +1,32 @@
+﻿Which of the following data structures falls under the category of a 'dictionary'?
+Hash Table
+Tree
+Hash
+Linked-list
+When using a heap, which function will give you the parent of the entry with index i?
+Integer division, i / 2
+Multiplication, i * 2 + 1
+Decimal division, i / 2 
+Multiplication, i * 2
+Which of the following could best be described by the graph structure?
+Roads connecting cities
+Algebraic problems
+A GUI
+Given a word, finding its definition
+What was the first mass-produced computer?
+IBM 650
+MacBook
+Not sure
+Amiga
+Which popular company designed the first CPU?
+Intel
+Apple
+Nvidia
+IBM
+What does 'CD-ROM' stands for?
+Compact Disc Read-Only Memory
+Compact Disc
+None of the answers
+Read Memory Only
+
+

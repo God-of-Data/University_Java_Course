@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.java_mmn_14_task_2.CalendarController">
+   <children>
+      <ComboBox fx:id="monthCB" layoutX="150.0" layoutY="40.0" prefWidth="150.0" promptText="Month" />
+      <ComboBox fx:id="yearCB" layoutX="300.0" layoutY="40.0" prefWidth="150.0" promptText="Year" />
+      <GridPane layoutY="129.0" prefHeight="258.0" prefWidth="600.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button id="1" fx:id="btn1" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="1" />
+            <Button id="2" fx:id="btn2" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="2" GridPane.columnIndex="1" />
+            <Button id="3" fx:id="btn3" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="3" GridPane.columnIndex="2" />
+            <Button id="4" fx:id="btn4" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="4" GridPane.columnIndex="3" />
+            <Button id="5" fx:id="btn5" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="5" GridPane.columnIndex="4" />
+            <Button id="6" fx:id="btn6" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="6" GridPane.columnIndex="5" />
+            <Button id="7" fx:id="btn7" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="7" GridPane.columnIndex="6" />
+            <Button id="8" fx:id="btn8" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="8" GridPane.rowIndex="1" />
+            <Button id="9" fx:id="btn9" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="9" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button id="10" fx:id="btn10" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="10" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button id="11" fx:id="btn11" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="11" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button id="12" fx:id="btn12" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="12" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button id="13" fx:id="btn13" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="13" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button id="14" fx:id="btn14" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="101.0" text="14" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button id="15" fx:id="btn15" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="15" GridPane.rowIndex="2" />
+            <Button id="16" fx:id="btn16" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="16" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button id="17" fx:id="btn17" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="17" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button id="18" fx:id="btn18" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="18" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button id="19" fx:id="btn19" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="19" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button id="20" fx:id="btn20" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="20" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button id="21" fx:id="btn21" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="21" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button id="22" fx:id="btn22" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="22" GridPane.rowIndex="3" />
+            <Button id="23" fx:id="btn23" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="23" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button id="24" fx:id="btn24" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="24" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button id="25" fx:id="btn25" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="25" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button id="26" fx:id="btn26" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="26" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button id="27" fx:id="btn27" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="27" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button id="28" fx:id="btn28" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="28" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button id="29" fx:id="btn29" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="29" GridPane.rowIndex="4" />
+            <Button id="30" fx:id="btn30" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="30" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button id="31" fx:id="btn31" mnemonicParsing="false" onAction="#btnAddMeeting" prefHeight="51.0" prefWidth="91.0" text="31" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <Text fx:id="column1" layoutX="21.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sunday" textAlignment="CENTER" />
+      <Text fx:id="column2" layoutX="105.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monday" textAlignment="CENTER" />
+      <Text fx:id="column3" layoutX="188.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tuesday" textAlignment="CENTER" />
+      <Text fx:id="column4" layoutX="267.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wednesday" textAlignment="CENTER" />
+      <Text fx:id="column5" layoutX="358.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thursday" textAlignment="CENTER" />
+      <Text fx:id="column6" layoutX="450.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Friday" textAlignment="CENTER" />
+      <Text fx:id="column7" layoutX="529.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Saturday" textAlignment="CENTER" />
+      <Text layoutX="150.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calander" textAlignment="CENTER" wrappingWidth="299.21630859375">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Text>
+      <Button layoutX="456.0" layoutY="40.0" mnemonicParsing="false" onAction="#showChosenMonth" prefHeight="20.0" prefWidth="70.0" text="Show" />
+   </children>
+</AnchorPane>
